@@ -1,0 +1,6 @@
+---
+requires_ansible: '>=2.13.0'
+
+action_groups:
+  vmware:
+  - vmware_guest_floppy

@@ -5,7 +5,7 @@ Allow user to add / reconfigure floppy using vmware (ESXi, vSphere, vCenter and 
 ## Installing
 
 ```bash
-ansible-galaxy collection install https://github.com/helviojunior/ansible-vmware-floppy.git
+ansible-galaxy collection install ansible-galaxy collection install git+https://github.com/helviojunior/ansible-vmware-floppy.git
 ```
 
 ## Samples
