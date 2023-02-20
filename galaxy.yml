@@ -1,0 +1,22 @@
+---
+namespace: community.vmware
+name: vmware_guest_floppy
+version: 0.1.1
+readme: README.md
+authors:
+- Helvio Junior - M4v3r1ck (@helviojunior)
+description: Collection allowing to configure resources in Zabbix monitoring system
+license_file: LICENSE
+tags:
+  - vmware
+  - vsphere
+  - vcenter
+  - cloud
+  - virtualization
+  - floppy
+repository: https://github.com/helviojunior/ansible-vmware-floppy.git
+documentation: https://github.com/helviojunior/ansible-vmware-floppy.git
+homepage: https://github.com/helviojunior/ansible-vmware-floppy
+issues: https://github.com/helviojunior/ansible-vmware-floppy/issues
+dependencies:
+  community.vmware: "*"
