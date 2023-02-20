@@ -1,6 +1,6 @@
 ---
-namespace: community
-name: vmware_guest_floppy
+namespace: helviojunior
+name: vmware
 version: 0.1.1
 readme: README.md
 authors:
