@@ -11,7 +11,7 @@ ansible-galaxy collection install ansible-galaxy collection install git+https://
 ## Samples
 ```yaml
 - name: Add/edit an empty floppy drive
-  vmware_guest_floppy:
+  helviojunior.vmware.vmware_guest_floppy:
     hostname: 10.0.1.20
     username: administrator@vsphere.local
     password: vmware
@@ -20,7 +20,7 @@ ansible-galaxy collection install ansible-galaxy collection install git+https://
   delegate_to: localhost
 
 - name: Add/edit client connected floppy drive
-  vmware_guest_floppy:
+  helviojunior.vmware.vmware_guest_floppy:
     hostname: 10.0.1.20
     username: administrator@vsphere.local
     password: vmware
@@ -29,7 +29,7 @@ ansible-galaxy collection install ansible-galaxy collection install git+https://
   delegate_to: localhost
 
 - name: Add/edit .flp file floppy drive
-  vmware_guest_floppy:
+  helviojunior.vmware.vmware_guest_floppy:
     hostname: 10.0.1.20
     username: administrator@vsphere.local
     password: vmware
@@ -40,7 +40,7 @@ ansible-galaxy collection install ansible-galaxy collection install git+https://
   delegate_to: localhost
 
 - name: Remove floppy drive
-  vmware_guest_floppy:
+  helviojunior.vmware.vmware_guest_floppy:
     hostname: 10.0.1.20
     username: administrator@vsphere.local
     password: vmware
